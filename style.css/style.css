@@ -18,6 +18,13 @@
   width: 366px;
   border-radius: 19px;
 }
+.box2 {
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  border-radius: 19px;
+  background-color: yellowgreen;
+}
 
 /* Shared Style */
 .logo-title {
@@ -134,6 +141,28 @@ h4 {
 .story-button {
   margin-top: 80px;
   margin-bottom: 60px;
+}
+.storie1 {
+  max-width: 540px;
+  max-height: 630px;
+}
+.storsss {
+  max-width: 290px;
+  max-height: 330px;
+}
+.stories-heading {
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+  /* background-color: tomato; */
+}
+.stories-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.button-for-standard {
+  font-size: 50px;
+  color: orange;
 }
 /* our stories end*/
 
